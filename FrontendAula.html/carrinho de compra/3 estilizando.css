@@ -1,0 +1,23 @@
+/* 2 No seletor universal eu falo q em nem uma das minhas paginas eu quero que fique um espaço no header */
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* 4 Mudando a fotne */
+body{
+    font-family:'Lato', sans-serif; 
+}
+
+/* 1 Vou alterar na classe pai body apenas o meu header */
+body > header{
+    background-color: yellow;
+    color: black;
+    font-size: 24px;
+    padding: 20px 0;
+    display: flex;/*3 Alinhando*/
+    justify-content:center; /*3 Alinhando  direita para esquerda*/
+
+    
+    
+}

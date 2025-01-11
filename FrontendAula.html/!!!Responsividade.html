@@ -1,0 +1,22 @@
+Depois de criar a pagina, vamos trabalhar com responsividade.
+ 
+" Vamos trabal;har com uma regra que quando minah tela seja de tal tamanho eu consiga aplicar uma nova roupagem"
+[1] - no css vamos trabalhar com midia querys.
+
+1- @media screen and(max-width 768px) //" 768 px é onde o browser começa a cortar" 
+    {
+        .container{
+            display:block;
+            background-image: none;  // Em telas menores é dificil de trabalhar com imagens, entao deixamos mais clean tirandop a imagem
+        }
+        .container_imagem, imagem_segunda_section// Mudando o tamnho da imagem com vw (tamanho da tela)
+        {
+            width: 50vw;
+        }
+
+        .secundario  //Na segunbda seçao tirei toda a margem
+        {
+            margin: 0;
+            text-align: center;
+        }
+    }

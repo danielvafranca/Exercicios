@@ -1,0 +1,59 @@
+.conteudo{
+    border: 8px solid #433;
+    color:black;
+    width: 100%;
+    margin:10%;
+    padding:10%
+    
+}
+/* flax-wrap // aplica o flex dentro do tamanho da box estipulada */
+.flax{
+display:flax
+}
+
+.flax-wrap{
+flax-wrap: wrap
+    
+}
+/* Deixa como coluna ( Setar o direcionamento que queremos)*/
+.flax-direction{
+    flex-direction: column-reverse; /* colum, row*/
+
+}
+/*Semopre da direita para a esquerda!*/
+.flax-justify{
+     justify-content: flex-start;/* Flex-end, space-between, Center, space-around
+     */
+}
+
+/*Sempre de cima para baixo*/
+
+.item-ilign{
+    align-items: flex-end;/* flex-end, flex-start, stretch(Esticar )*/
+}
+.container{
+    max-width:400px;
+    margin:0px;
+    border: 1px solid #ccc   
+}
+/* Grids */
+.grid{
+    display:grid
+}
+/* usar grid colums e grid rows semrpe juntos*/
+.grid-colums{
+    /* 2 colunas de 100 px e a ultima coluna ocupa todo o resto do espaço*/
+}
+.grid-rows{
+    /* 2 colunas de 100 px e a ultima coluna ocupa todo o resto do espaço*/
+}
+
+.grid-areas{
+    grid-template-columns:100px 100ox 1fr;
+    grid-template-rows:50px 50px 1fr;
+    grid-area:
+     "area-1 area-2 area-3"
+     "area-3 area-4 area-5"
+     "area3- area-3 area-6"
+    ;
+}

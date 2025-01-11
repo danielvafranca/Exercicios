@@ -1,0 +1,26 @@
+/* Seletores
+    1- Classe (.) -- Posso usar vartias vezes no projeto
+    2 - Id (#)  -- CriADO PARA ALGO ESPECIFICO
+    3 - p, h1
+
+
+*/
+
+.primeira-classe{
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-weight: 300px;
+}
+#primeiro-id{
+    background-color:#ccc;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+h1{
+    background-color: #234;
+}
+
+p{
+    background-color: #222;
+}

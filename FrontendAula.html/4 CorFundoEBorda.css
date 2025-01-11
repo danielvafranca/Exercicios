@@ -1,0 +1,40 @@
+.conteudo{
+    border: 8px solid #433;
+    /*width: 50%;*/
+    background-color: blue;
+    /* margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%; */
+    margin: 10%;/*Para tudo*/
+
+    margin: 10% 5% 15% 20% ;/*top,right,bottom,left*/
+    
+     padding:5% ;/*dentro da margem */
+
+    /*background-image: url("C:\Users\danie\OneDrive\Imagens\nutela.jpg") ;
+    background-repeat: no-repeat;
+    */
+    color:black;
+    font-size:3em
+}
+/*Unidade de medidas
+
+    MEDIDAS RELATIVAS - Conforme o dispositivio
+    %
+    vw
+    vh
+    (mais aplicado a fotnes)
+    em - base o css
+    rem - Base o html
+
+    meditas absolutas - Não mudam
+    px
+
+
+*/
+
+/*ESPAÇAMENTOS
+
+
+*/
